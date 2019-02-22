@@ -1,0 +1,218 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v3.5": {
+      "OpenGL.Net/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.dll": {}
+        }
+      },
+      "OpenGL.Net.WinForms/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v3.5/win": {
+      "OpenGL.Net/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.dll": {}
+        }
+      },
+      "OpenGL.Net.WinForms/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v3.5/win-x64": {
+      "OpenGL.Net/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.dll": {}
+        }
+      },
+      "OpenGL.Net.WinForms/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v3.5/win-x86": {
+      "OpenGL.Net/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.dll": {}
+        }
+      },
+      "OpenGL.Net.WinForms/0.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net35/OpenGL.Net.WinForms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenGL.Net/0.7.1": {
+      "sha512": "5XNYStjVWRDecXSKFdcsTce0Tghkc1XU/ONkdpJ+PB/dDw+4pnQsEDDqbrlsOEHbVLpomVrEcC0zwFyTlr5BrQ==",
+      "type": "package",
+      "path": "opengl.net/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        "lib/monoandroid/OpenGL.Net.dll",
+        "lib/monoandroid/OpenGL.Net.pdb",
+        "lib/monoandroid/OpenGL.Net.xml",
+        "lib/net35/OpenGL.Net.dll",
+        "lib/net35/OpenGL.Net.pdb",
+        "lib/net35/OpenGL.Net.xml",
+        "lib/net461/OpenGL.Net.dll",
+        "lib/net461/OpenGL.Net.pdb",
+        "lib/net461/OpenGL.Net.xml",
+        "lib/netcoreapp1.1/OpenGL.Net.dll",
+        "lib/netcoreapp1.1/OpenGL.Net.pdb",
+        "lib/netcoreapp1.1/OpenGL.Net.xml",
+        "lib/netcoreapp2.0/OpenGL.Net.dll",
+        "lib/netcoreapp2.0/OpenGL.Net.pdb",
+        "lib/netcoreapp2.0/OpenGL.Net.xml",
+        "opengl.net.0.7.1.nupkg.sha512",
+        "opengl.net.nuspec"
+      ]
+    },
+    "OpenGL.Net.WinForms/0.7.1": {
+      "sha512": "Mmz9INDULAxIpUrMbrf7U1l7BhNzeJHpMy2RiN+4NEr6neT8f9yYv11lkQy0tFnNHINN4sQsJLlRZYgaLnbtmw==",
+      "type": "package",
+      "path": "opengl.net.winforms/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net35/OpenGL.Net.WinForms.dll",
+        "lib/net35/OpenGL.Net.WinForms.pdb",
+        "lib/net35/OpenGL.Net.WinForms.xml",
+        "lib/net461/OpenGL.Net.WinForms.dll",
+        "lib/net461/OpenGL.Net.WinForms.pdb",
+        "lib/net461/OpenGL.Net.WinForms.xml",
+        "opengl.net.winforms.0.7.1.nupkg.sha512",
+        "opengl.net.winforms.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v3.5": [
+      "OpenGL.Net >= 0.7.1",
+      "OpenGL.Net.WinForms >= 0.7.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Adm\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Adm\\Desktop\\HelloTriangle.WPF\\HelloTriangle.WPF.csproj",
+      "projectName": "HelloTriangle.WPF",
+      "projectPath": "C:\\Users\\Adm\\Desktop\\HelloTriangle.WPF\\HelloTriangle.WPF.csproj",
+      "packagesPath": "C:\\Users\\Adm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adm\\Desktop\\HelloTriangle.WPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net35"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net35": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net35": {
+        "dependencies": {
+          "OpenGL.Net": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "OpenGL.Net.WinForms": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
